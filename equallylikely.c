@@ -1,4 +1,11 @@
-//
+//Question: Choose any experiment (with finite sample space) and write a program that will
+//a) print its sample space;
+//b) assuming that all outcomes are equally likely, make a choice of outcome.
+
+//Experiment is Tossing A Coin.
+//Sample Space is a set of all possible outcomes of any random experiment.
+//Outcomes in a sample space 'S' are equally-likely if each has the same chance/probability of occurrence.
+//If a sample space contains a finite number of elements, then the sample space is said to be a finite sample space. The sample space for the experiment of a toss of a coin contains only two possible outcomes, so it is an example of finite sample space.
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -21,7 +28,7 @@ int main()
 				printf("TT)\n");
     
 	do{
-        
+
 	if(i==0)
 	    { printf("Probability of 0 head (TT)= 1/4\n");
 	    }
