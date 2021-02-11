@@ -43,7 +43,8 @@ int main()
 
 	printf("\nWant to have the experiment again? (y/n): ");
 	scanf("%s",&chk);
-	}while(chk=='y');
+	}
+	while(chk=='y');
 
 return 0;
 }
