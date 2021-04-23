@@ -1,3 +1,4 @@
+//Assignment2
 //Question: Choose any experiment (with finite sample space) and write a program that will
 //a) print its sample space;
 //b) assuming that all outcomes are equally likely, make a choice of outcome.
